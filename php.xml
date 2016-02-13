@@ -1,0 +1,7 @@
+<application>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration tool_path="/usr/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+</application>
