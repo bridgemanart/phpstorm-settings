@@ -1,0 +1,9 @@
+<inspections profile_name="Bridgeman Startup" version="1.0">
+  <option name="myName" value="Bridgeman Startup" />
+  <inspection_tool class="PhpCSValidationInspection" enabled="true" level="STYLE" enabled_by_default="true">
+    <option name="IGNORE_WARNINGS" value="true" />
+    <option name="CODING_STANDARD" value="Custom" />
+    <option name="CUSTOM_RULESET_PATH" value="/home/web/Projects/gqm/dev/phpcs-rules" />
+    <option name="WARNING_HIGHLIGHT_LEVEL_NAME" value="STYLE" />
+  </inspection_tool>
+</inspections>
