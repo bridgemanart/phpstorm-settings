@@ -1,0 +1,11 @@
+<code_scheme name="Bridgeman 2.0">
+  <option name="LINE_SEPARATOR" value="&#10;" />
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <codeStyleSettings language="yaml">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
