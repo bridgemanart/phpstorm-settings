@@ -1,8 +1,5 @@
 <code_scheme name="Bridgeman 2.0">
   <option name="LINE_SEPARATOR" value="&#10;" />
-  <MultiMarkdownCodeStyleSettings>
-    <option name="RIGHT_MARGIN" value="72" />
-  </MultiMarkdownCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
