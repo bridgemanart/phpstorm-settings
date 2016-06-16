@@ -5,6 +5,7 @@
       <mapping pattern="fixtures_dump_SNpmkY" type="PLAIN_TEXT" />
       <mapping pattern="exiv2json" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="appcache" type="PLAIN_TEXT" />
       <mapping ext="icm" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
