@@ -7,6 +7,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="appcache" type="PLAIN_TEXT" />
       <mapping ext="icm" type="PLAIN_TEXT" />
+      <mapping pattern="fixtures_dump_FqnHvC" type="SQL" />
       <mapping pattern="_actions" type="Twig" />
     </extensionMap>
   </component>
