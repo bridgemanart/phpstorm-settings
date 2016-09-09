@@ -1,14 +1,14 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="fixtures_dump_Totipx" type="PLAIN_TEXT" />
       <mapping pattern="fixtures_dump_SNpmkY" type="PLAIN_TEXT" />
       <mapping pattern="exiv2json" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="appcache" type="PLAIN_TEXT" />
       <mapping ext="icm" type="PLAIN_TEXT" />
+      <mapping pattern="fixtures_dump_FqnHvC" type="SQL" />
       <mapping pattern="_actions" type="Twig" />
-      <mapping ext="dist" type="YAML" />
     </extensionMap>
   </component>
 </application>
