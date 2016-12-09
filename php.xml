@@ -15,7 +15,11 @@
         <remote_data VAGRANT_FOLDER="$USER_HOME$/Projects/ifm" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
       <interpreter home="/usr/local/Cellar/php56/5.6.25_1/bin/php" id="077c23c1-3942-4383-8441-98428cb3c0e6" name="PHP Mac" debugger_id="php.debugger.XDebug" />
-      <interpreter home="/usr/bin/php" id="b0e9879d-f0da-4822-8b87-36a1c6cd8f96" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/bin/php" id="b0e9879d-f0da-4822-8b87-36a1c6cd8f96" name="PHP 5.6" debugger_id="php.debugger.XDebug">
+        <configuration_options>
+          <configuration_option name="zend.enable_gc" value="0" />
+        </configuration_options>
+      </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -736,8 +740,8 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 5.6">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php5" path_separator=":" remote_host="127.0.0.1" version="5.6.11-1ubuntu3.4">
-          <additional_php_ini>/etc/php5/cli/conf.d/05-opcache.ini, /etc/php5/cli/conf.d/10-pdo.ini, /etc/php5/cli/conf.d/20-curl.ini, /etc/php5/cli/conf.d/20-gd.ini, /etc/php5/cli/conf.d/20-json.ini, /etc/php5/cli/conf.d/20-memcached.ini, /etc/php5/cli/conf.d/20-mysql.ini, /etc/php5/cli/conf.d/20-mysqli.ini, /etc/php5/cli/conf.d/20-pdo_mysql.ini, /etc/php5/cli/conf.d/20-readline.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php5" path_separator=":" version="5.6.11-1ubuntu3.4">
+          <additional_php_ini>/etc/php5/cli/conf.d/05-opcache.ini, /etc/php5/cli/conf.d/10-pdo.ini, /etc/php5/cli/conf.d/20-curl.ini, /etc/php5/cli/conf.d/20-gd.ini, /etc/php5/cli/conf.d/20-json.ini, /etc/php5/cli/conf.d/20-memcached.ini, /etc/php5/cli/conf.d/20-mysql.ini, /etc/php5/cli/conf.d/20-mysqli.ini, /etc/php5/cli/conf.d/20-pdo_mysql.ini, /etc/php5/cli/conf.d/20-pdo_sqlite.ini, /etc/php5/cli/conf.d/20-readline.ini, /etc/php5/cli/conf.d/20-sqlite3.ini</additional_php_ini>
           <configuration_file>/etc/php5/cli/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
@@ -963,6 +967,7 @@
             <configuration_option name="soap.wsdl_cache_limit" value="5" />
             <configuration_option name="soap.wsdl_cache_ttl" value="86400" />
             <configuration_option name="sql.safe_mode" value="" />
+            <configuration_option name="sqlite3.extension_dir" value="" />
             <configuration_option name="sys_temp_dir" value="" />
             <configuration_option name="track_errors" value="" />
             <configuration_option name="unserialize_callback_func" value="" />
@@ -1085,12 +1090,14 @@
             <extension name="pcntl" />
             <extension name="pcre" />
             <extension name="pdo_mysql" />
+            <extension name="pdo_sqlite" />
             <extension name="posix" />
             <extension name="readline" />
             <extension name="session" />
             <extension name="shmop" />
             <extension name="soap" />
             <extension name="sockets" />
+            <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="sysvmsg" />
             <extension name="sysvsem" />
