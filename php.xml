@@ -14,7 +14,11 @@
       <interpreter home="vagrant:///home/web/Projects/ifm/usr/bin/php" id="c7bf814a-c053-4cac-a278-788c61ebf20d" name="Remote PHP 5.6" debugger_id="php.debugger.XDebug">
         <remote_data VAGRANT_FOLDER="$USER_HOME$/Projects/ifm" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
-      <interpreter home="/usr/local/Cellar/php56/5.6.25_1/bin/php" id="077c23c1-3942-4383-8441-98428cb3c0e6" name="PHP Mac" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/Cellar/php56/5.6.25_1/bin/php" id="077c23c1-3942-4383-8441-98428cb3c0e6" name="PHP Mac" debugger_id="php.debugger.XDebug">
+        <configuration_options>
+          <configuration_option name="zend.enable_gc" value="0" />
+        </configuration_options>
+      </interpreter>
       <interpreter home="/usr/bin/php" id="b0e9879d-f0da-4822-8b87-36a1c6cd8f96" name="PHP 5.6" debugger_id="php.debugger.XDebug">
         <configuration_options>
           <configuration_option name="zend.enable_gc" value="0" />
@@ -663,7 +667,7 @@
             <configuration_option name="xmlrpc_errors" value="0" />
             <configuration_option name="xsl.security_prefs" value="44" />
             <configuration_option name="zend.detect_unicode" value="1" />
-            <configuration_option name="zend.enable_gc" value="1" />
+            <configuration_option name="zend.enable_gc" value="0" />
             <configuration_option name="zend.multibyte" value="0" />
             <configuration_option name="zend.script_encoding" value="" />
             <configuration_option name="zend.signal_check" value="0" />
