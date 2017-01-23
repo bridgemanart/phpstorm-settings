@@ -9,6 +9,7 @@
       <mapping pattern="php" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="appcache" type="PLAIN_TEXT" />
+      <mapping ext="dev" type="PLAIN_TEXT" />
       <mapping ext="icm" type="PLAIN_TEXT" />
       <mapping pattern="fixtures_dump_FqnHvC" type="SQL" />
       <mapping pattern="_actions" type="Twig" />
