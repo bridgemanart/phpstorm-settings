@@ -6,6 +6,7 @@
       <mapping pattern="fixtures_dump_Totipx" type="PLAIN_TEXT" />
       <mapping pattern="fixtures_dump_SNpmkY" type="PLAIN_TEXT" />
       <mapping pattern="exiv2json" type="PLAIN_TEXT" />
+      <mapping pattern="symfony_requirements" type="PLAIN_TEXT" />
       <mapping pattern="php" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="appcache" type="PLAIN_TEXT" />
