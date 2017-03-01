@@ -1490,7 +1490,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="c7bf814a-c053-4cac-a278-788c61ebf20d" load_method="CUSTOM_LOADER" configuration_file_path="/var/www/ifm.vm/phpunit.xml.dist" custom_loader_path="/var/www/ifm.vm/app/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="9f002860-5db9-49c2-b580-863be13a5e7c" load_method="CUSTOM_LOADER" configuration_file_path="/opt/project/phpunit.xml.dist" custom_loader_path="/opt/project/vendor/autoload.php" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
