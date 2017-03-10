@@ -1049,7 +1049,7 @@
             <configuration_option name="xmlrpc_error_number" value="0" />
             <configuration_option name="xmlrpc_errors" value="0" />
             <configuration_option name="zend.detect_unicode" value="1" />
-            <configuration_option name="zend.enable_gc" value="1" />
+            <configuration_option name="zend.enable_gc" value="0" />
             <configuration_option name="zend.multibyte" value="0" />
             <configuration_option name="zend.script_encoding" value="" />
             <configuration_option name="zlib.output_compression" value="" />
