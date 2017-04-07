@@ -7,6 +7,10 @@
           <option name="path" value="$USER_HOME$/Apps/TextMate/Bundles/python.tmbundle" />
         </BundleConfigBean>
         <BundleConfigBean>
+          <option name="name" value="Shell Script" />
+          <option name="path" value="$USER_HOME$/Apps/TextMate/Bundles/shellscript.tmbundle" />
+        </BundleConfigBean>
+        <BundleConfigBean>
           <option name="name" value="Python" />
           <option name="path" value="$USER_HOME$/Applications/TextMate Bundles/python.tmbundle" />
         </BundleConfigBean>
