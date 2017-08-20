@@ -15,23 +15,23 @@
       <mapping pattern="fixtures_dump_FqnHvC" type="SQL" />
       <mapping pattern="_actions" type="Twig" />
       <mapping pattern="bash" type="textmate" />
-      <mapping pattern="Sconstruct" type="textmate" />
+      <mapping pattern="re" type="textmate" />
       <mapping pattern="py3" type="textmate" />
-      <mapping pattern="sh" type="textmate" />
-      <mapping pattern="bash_login" type="textmate" />
       <mapping pattern="bash_logout" type="textmate" />
+      <mapping pattern="bash_login" type="textmate" />
       <mapping pattern="cpy" type="textmate" />
-      <mapping pattern=".textmate_init" type="textmate" />
       <mapping pattern="zsh" type="textmate" />
       <mapping pattern="profile" type="textmate" />
+      <mapping pattern="Sconstruct" type="textmate" />
       <mapping pattern="rpy" type="textmate" />
-      <mapping pattern="SConscript" type="textmate" />
+      <mapping pattern=".textmate_init" type="textmate" />
       <mapping pattern="gypi" type="textmate" />
       <mapping pattern="SConstruct" type="textmate" />
       <mapping pattern="sconstruct" type="textmate" />
+      <mapping pattern="SConscript" type="textmate" />
       <mapping pattern="gyp" type="textmate" />
       <mapping pattern="bashrc" type="textmate" />
-      <mapping pattern="re" type="textmate" />
+      <mapping pattern="sh" type="textmate" />
       <mapping pattern="pyw" type="textmate" />
       <mapping pattern="py" type="textmate" />
       <mapping pattern="bash_profile" type="textmate" />
@@ -44,6 +44,7 @@
       <mapping ext="zsh" type="textmate" />
       <mapping ext="bash_login" type="textmate" />
       <mapping ext="sconstruct" type="textmate" />
+      <mapping ext="sconscript" type="textmate" />
       <mapping ext="bash_profile" type="textmate" />
       <mapping ext="sh" type="textmate" />
       <mapping ext="bash_logout" type="textmate" />
